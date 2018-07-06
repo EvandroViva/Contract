@@ -196,9 +196,9 @@ contract Election {
   }
 
   // this function returns the votes
-  function get_votes() public view returns (uint8[]) {
-    return votesList;
-  }
+  // function get_votes() public view returns (uint8[]) {
+  //   return votesList;
+  // }
 
   // this function allows you to check your vote
   function check_vote(string __hash) public view returns (uint8) {
